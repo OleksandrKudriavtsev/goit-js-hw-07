@@ -4,7 +4,9 @@
 // Добавь слушатели кликов на кнопки, вызовы функций и обновление интерфейса
 
 const btnDecr = document.querySelector('[data-action="decrement"]');
+// const btnDecr = buttons[0].dataset.action;
 const btnIncr = document.querySelector('[data-action="increment"]');
+// const btnIncrement = buttons[1].dataset.action;
 const value = document.querySelector("#value");
 
 let counterValue = 0;
